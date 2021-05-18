@@ -44,6 +44,7 @@
     background-position: center;
     background-size: cover;
     height: 70vh;
+    margin-bottom: 4vh;
 }
 .segundaImagen{
     background-image: url(../images/sistemas_1.jpg);
