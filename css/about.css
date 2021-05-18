@@ -1,0 +1,40 @@
+#head{
+    background-color: rgba(190, 190, 190, 0.5);
+    padding-top: 100px;
+    font-family: "Open sans", Arial, Helvetica;
+    font-weight: 300;
+}
+
+.breadAndHeader{
+    padding-bottom: 70px;
+}
+
+.about{
+    padding-top: 10vh;
+}
+
+.imagenes-about{
+    height: 70vh;
+    margin-bottom: 10vh;
+}
+
+.a-title::after {
+    content: "_________________________________________________________________________________";
+    color: black;
+}
+
+/* Footer */
+
+#footer{
+    background-color: rgba(0,0,0,1);
+}
+
+.footer1{
+    color: white;
+}
+.footer2 { 
+    background: #191919; 
+    padding: 15px 0; 
+    color: #777; 
+    font-size: 12px; 
+}
