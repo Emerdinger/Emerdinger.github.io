@@ -62,36 +62,35 @@
         <p>Si tienes alguna duda o quieres ponerte en contacto conmigo puedes enviarme un correo electronico llenando el
             siguiente formuario y yo me pondré en contácto contigo.
         </p><br>
-
-        <div class="" id="app">
-            <div class="row">
-                <div class="col-md-4">
-                    <input required type="text" v-model="from_name" class="form-control" placeholder="Nombres" aria-label="name"
-                        aria-describedby="basic-addon1">
+        <form action="/" id="mail">
+            <div class="" id="app">
+                <div class="row">
+                    <div class="col-md-4">
+                        <input required type="text" v-model="from_name" class="form-control" placeholder="Nombres" aria-label="name"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <div class="col-md-4">
+                        <input required type="email" v-model="from_email" class="form-control" placeholder="Email" aria-label="name"
+                            aria-describedby="basic-addon1">
+                    </div>
+                    <div class="col-md-4">
+                        <input required type="number" v-model="from_phone" class="form-control" placeholder="Telefono"
+                            aria-label="name" aria-describedby="basic-addon1">
+                    </div>
+                </div> <br><br>
+                <div class="row">
+                    <div class="col-md-12">
+                        <textarea required v-model="message" placeholder="Escribe tú mensaje aquí..." class="form-control"
+                            rows="9"></textarea>
+                    </div>
+                </div><br>
+                <div class="col-md-12 text-center">
+                    <button class="btn btn-success" type="submit">
+                        Enviar
+                    </button>
                 </div>
-                <div class="col-md-4">
-                    <input required type="text" v-model="from_email" class="form-control" placeholder="Email" aria-label="name"
-                        aria-describedby="basic-addon1">
-                </div>
-                <div class="col-md-4">
-                    <input required type="text" v-model="from_phone" class="form-control" placeholder="Telefono"
-                        aria-label="name" aria-describedby="basic-addon1">
-                </div>
-            </div> <br><br>
-            <div class="row">
-                <div class="col-md-12">
-                    <textarea required v-model="message" placeholder="Escribe tú mensaje aquí..." class="form-control"
-                        rows="9"></textarea>
-                </div>
-            </div><br>
-            <div class="col-md-12 text-center">
-                <button @click="enviar" class="btn btn-success">
-                    Enviar
-                </button>
             </div>
-        </div>
-
-
+        </form>
 
     </div>
     <br>

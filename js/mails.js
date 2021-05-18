@@ -1,6 +1,14 @@
 (function () {
     emailjs.init("user_M9tyz9Vrx5NYAJzjste3P");
 })();
+
+let form = document.querySelector('#mail');
+
+form.addEventListener('submit', (e) =>{
+    e.preventDefault();
+    vue.enviar();
+})
+
 const vue = new Vue({
     el: '#app',
     data() {
