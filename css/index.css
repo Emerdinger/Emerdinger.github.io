@@ -14,7 +14,7 @@
     font-weight: 500;
 }
 #head.secondary { height:100px; min-height: 100px; padding-top:0px; }
-	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:60px; margin-bottom:6px; color:white; line-height:1.15em; } 
+	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:60px; margin-bottom:6px; color:black; line-height:1.15em; } 
 	#head .btn { margin-bottom:10px;}
 	#head .btn-default { text-shadow: none; background:transparent; color:rgba(0,0,0,1); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); background: transparent; }
 		#head .btn-default:hover,
@@ -32,9 +32,13 @@
     font-weight: 1000;
 }
 
-#head h1,a{
-    color: white;
-    font-weight: 500;
+#head h1{
+    font-weight: 1000;
+}
+
+#head a{
+    color: black;
+    font-weight: 1000;
 }
 
 /* Navbar */
