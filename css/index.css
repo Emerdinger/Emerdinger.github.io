@@ -1,5 +1,6 @@
 :root{
 	scroll-behavior: smooth;
+    transition-duration: 5000ms;
 }
 
 *{
@@ -75,10 +76,152 @@ h1, h2, h3, h4, h5, h6 { font-family:"Open sans", Helvetica, Arial; }
 
 /* Conoceme */
 
-.conoceme{
-    margin-top: 65px;
-    margin-bottom: 65px;
-    font-size: 6vh;
+.about-imagen{
+    background: url(../images/about-imagen.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    box-shadow: -10px 10px 10px 0px rgb(202, 202, 202);
+}
+
+.frase-sobre-mi{
+    background-color: rgba(190, 190, 190, 0.5);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-img-0{
+    background: url(../images/Ing_sistemas.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    box-shadow: -10px 10px 10px 0px rgb(202, 202, 202);
+}
+
+.about-img-1{
+    background: url(../images/about-img-1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 60vh;
+    box-shadow: 10px -10px 10px 0px rgb(202, 202, 202);
+}
+
+.about-img-2{
+    background: url(../images/about-img-2.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    height: 60vh;
+    box-shadow: -10px 10px 10px 0px rgb(202, 202, 202);
+}
+
+.about-img-3{
+    height: 60vh;
+    background: url(../images/about-img-3.jpg);
+    background-position: center;
+    background-size: 100% 100%;
+    
+    box-shadow: 10px -10px 10px 0px rgb(202, 202, 202);
+}
+
+/* Portafolio */
+
+#head-portafolio{
+    background: url(../images/portafolio-bg.jpg);
+    height: 110vh;
+}
+
+.title-portafolio{
+    color: white;
+    align-items: center;
+    padding-top: 45vh;
+}
+
+.portafolio h1,p{
+    font-weight: 800;
+}
+
+.imagen-triviate{
+    background: url(../images/triviate.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px 3px black;
+}
+
+.imagen-calculadora{
+    background: url(../images/calculadora.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px 3px black;
+}
+
+.imagen-pep{
+    background: url(../images/pep.JPG);
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px 3px black;
+}
+
+.imagen-youtube{
+    background: url(../images/youtubeclon.JPG);
+    background-position: cover;
+    background-size: cover;
+    height: 45vh;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px 3px black;
+}
+
+.imagen-arriendate{
+    background: url(../images/arriendate.JPG) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 45vh;
+    border-radius: 15px;
+    box-shadow: 5px 5px 3px 3px black;
+}
+
+.card-portafolio-triviate{
+    background-color: #a37ea9;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.card-portafolio-calculadora{
+    background-color: rgb(92, 184, 92);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.card-portafolio-pep{
+    background-color: rgb(240, 173, 78);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.card-portafolio-youtube{
+    background-color: rgb(33, 37, 41);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.card-portafolio-arriendate{
+    background-color: rgb(108, 117, 125);
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.title-section h1{
+    font-weight: 800;
+    text-shadow: 0px 1px #fff;
+}
+
+.body-section{
+    font-weight: 800;
 }
 
 /* Footer */
@@ -95,6 +238,32 @@ h1, h2, h3, h4, h5, h6 { font-family:"Open sans", Helvetica, Arial; }
     padding: 15px 0; 
     color: #777; 
     font-size: 12px; 
+}
+
+@media (max-width: 750px) {
+    .video{
+        width: 500px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 550px) {
+    .video{
+        width: 350px;
+        height: 200px;
+    }
+}
+
+@media (max-width: 366px) {
+    .herramientas{
+        margin-top: 65px;
+        margin-bottom: 65px;
+        font-size: 3vh;
+    }
+    .video{
+        width: 250px;
+        height: 150px;
+    }
 }
 
 
