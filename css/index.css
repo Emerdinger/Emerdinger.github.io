@@ -7,6 +7,7 @@
     background: #181015 url(../images/background.jpg) no-repeat;
     background-size: cover;
     min-height: 520px;
+    height: 100vh;
     text-align: center;
     padding-top: 240px;
     color: white;
@@ -14,7 +15,7 @@
     font-weight: 500;
 }
 #head.secondary { height:100px; min-height: 100px; padding-top:0px; }
-	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:60px; margin-bottom:6px; color:black; line-height:1.15em; } 
+	#head .lead { font-family:"Open sans", Helvetica, Arial; font-size:60px; margin-bottom:6px; color:#BAB2AA; line-height:1.15em; text-shadow: -1px -1px 1px #000, 1px 1px 1px #000, -1px 1px 1px #000, 1px -1px 1px #000; } 
 	#head .btn { margin-bottom:10px;}
 	#head .btn-default { text-shadow: none; background:transparent; color:rgba(0,0,0,1); -webkit-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); -moz-box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); box-shadow:inset 0px 0px 0px 3px rgba(255,255,255,.5); background: transparent; }
 		#head .btn-default:hover,
