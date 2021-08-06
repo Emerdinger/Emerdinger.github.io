@@ -33,12 +33,13 @@ input[type=number] { -moz-appearance:textfield; }
     align-items: center;
     height: 60px;
     padding-top: 20px;
+    z-index: 1000;
 }
 
 .logo img {
     margin-left: 30px;
-    width: 30px;
-    height: 30px;
+    width: 50px;
+    height: 40px;
     cursor: pointer;
 }
 
@@ -49,7 +50,7 @@ input[type=number] { -moz-appearance:textfield; }
 }
 
 .NavBar ul {
-    width: calc(100vw - 75px);
+    width: calc(100vw - 95px);
     display: flex;
     justify-content: center;
 }
