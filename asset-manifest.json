@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/static/css/main.eda42db1.chunk.css",
+    "main.js": "/static/js/main.0b76d661.chunk.js",
+    "main.js.map": "/static/js/main.0b76d661.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a8eca24e.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a8eca24e.js.map",
+    "static/css/2.7fc9bc2b.chunk.css": "/static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.5f2932ef.chunk.js": "/static/js/2.5f2932ef.chunk.js",
+    "static/js/2.5f2932ef.chunk.js.map": "/static/js/2.5f2932ef.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.7fc9bc2b.chunk.css.map": "/static/css/2.7fc9bc2b.chunk.css.map",
+    "static/css/main.eda42db1.chunk.css.map": "/static/css/main.eda42db1.chunk.css.map",
+    "static/js/2.5f2932ef.chunk.js.LICENSE.txt": "/static/js/2.5f2932ef.chunk.js.LICENSE.txt",
+    "static/media/arriendate.53a20dea.PNG": "/static/media/arriendate.53a20dea.PNG",
+    "static/media/backend.b08c03a9.svg": "/static/media/backend.b08c03a9.svg",
+    "static/media/daltopc.c723d836.PNG": "/static/media/daltopc.c723d836.PNG",
+    "static/media/design.5d926113.svg": "/static/media/design.5d926113.svg",
+    "static/media/gymfit.5b597a35.PNG": "/static/media/gymfit.5b597a35.PNG",
+    "static/media/imagenesvideos.5ac57054.PNG": "/static/media/imagenesvideos.5ac57054.PNG",
+    "static/media/logo.052cadc2.png": "/static/media/logo.052cadc2.png",
+    "static/media/noticias.6cba19cb.PNG": "/static/media/noticias.6cba19cb.PNG",
+    "static/media/regresiones.5a706e27.PNG": "/static/media/regresiones.5a706e27.PNG",
+    "static/media/responsive.bfa2c751.svg": "/static/media/responsive.bfa2c751.svg",
+    "static/media/restaurante.85613711.PNG": "/static/media/restaurante.85613711.PNG",
+    "static/media/triviate.74b35f40.PNG": "/static/media/triviate.74b35f40.PNG",
+    "static/media/webdev.753f2580.svg": "/static/media/webdev.753f2580.svg",
+    "static/media/website.9625abeb.svg": "/static/media/website.9625abeb.svg",
+    "static/media/youtube.6e045d1f.PNG": "/static/media/youtube.6e045d1f.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a8eca24e.js",
+    "static/css/2.7fc9bc2b.chunk.css",
+    "static/js/2.5f2932ef.chunk.js",
+    "static/css/main.eda42db1.chunk.css",
+    "static/js/main.0b76d661.chunk.js"
+  ]
+}
