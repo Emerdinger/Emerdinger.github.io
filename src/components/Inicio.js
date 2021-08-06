@@ -25,7 +25,8 @@ const Inicio = () => {
                     <h5>Crece y personaliza tu emprendimiento</h5>
                     <h1>Soy Emerson Niño</h1>
                     <p>Haz llegar tu negocio a mas personas con una página web a la medida de tus requerimientos</p>
-                    <a href="/contacto">Descargar CV</a>
+                    <a href="https://drive.google.com/file/d/1sRJByQ0_vuWkmyiG4wKfP4GOzzKaA7PD/view"
+                       download="HojaDeVidaEmerson" target="_blank">Mi hoja de vida</a>
                 </div>
                 <div className="back">
                     <img src={Webdev} alt="Web-dev"/>
