@@ -175,7 +175,6 @@ input[type=number] { -moz-appearance:textfield; }
 #portafolio {
     background: rgb(234,244,255);
     width: 100%;
-    height: 100%;
 }
 
 #portafolio .portafolio-title {
@@ -197,8 +196,6 @@ input[type=number] { -moz-appearance:textfield; }
 
 .card-portafolio {
     border: 1px solid #000;
-    border-radius: 30px;
-    padding: 10px;
     margin-bottom: 20px;
 }
 
@@ -292,6 +289,12 @@ input[type=number] { -moz-appearance:textfield; }
     }
 }
 
+@media (max-width: 1350px){
+    .grid-portafolio {
+        grid-template-columns: repeat(2,1fr);
+    }
+}
+
 @media (max-width: 1050px){
     #inicio .text h5{
         font-size: .7rem;
@@ -308,10 +311,6 @@ input[type=number] { -moz-appearance:textfield; }
 
     #inicio .text a{
         font-size: .7rem;
-    }
-
-    .grid-portafolio {
-        grid-template-columns: repeat(2,1fr);
     }
 }
 
