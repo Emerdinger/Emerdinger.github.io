@@ -40,94 +40,116 @@ const Portafolio = () => {
                 <h1>Portafolio</h1>
             </div>
             <div className="grid-portafolio container">
-                <div className="card-portafolio" style={{
-                    background: `url(${TheOctoWorld})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "100% 100%",
-                    backgroundRepeat: "no-repeat",
-                    height: "300px"
-                }}>
-                </div>
-                <div className="card-portafolio" style={{
-                    background: `url(${Youtube})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "100% 100%",
-                    backgroundRepeat: "no-repeat",
-                    height: "300px"
-                }}>
-                </div>
-                <div className="card-portafolio" style={{
-                    background: `url(${Triviate})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "100% 100%",
-                    backgroundRepeat: "no-repeat",
-                    height: "300px"
-                }}>
-                </div>
-                <div className="card-portafolio" style={{
-                    background: `url(${Arriendate})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "100% 100%",
-                    backgroundRepeat: "no-repeat",
-                    height: "300px"
-                }}>
-                </div>
-                <div className="card-portafolio" style={{
-                    background: `url(${Gymfit})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "100% 100%",
-                    backgroundRepeat: "no-repeat",
-                    height: "300px"
-                }}>
-                </div>
-                <div className="card-portafolio" style={{
-                    background: `url(${ImagenesVideos})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "100% 100%",
-                    backgroundRepeat: "no-repeat",
-                    height: "300px"
-                }}>
-                </div>
-                <div className="card-portafolio" style={{
-                    background: `url(${Restaurante})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "100% 100%",
-                    backgroundRepeat: "no-repeat",
-                    height: "300px"
-                }}>
-                </div>
-                <div className="card-portafolio" style={{
-                    background: `url(${Noticias})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "100% 100%",
-                    backgroundRepeat: "no-repeat",
-                    height: "300px"
-                }}>
-                </div>
-                <div className="card-portafolio" style={{
-                    background: `url(${Daltopc})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "100% 100%",
-                    backgroundRepeat: "no-repeat",
-                    height: "300px"
-                }}>
-                </div>
-                <div className="card-portafolio" style={{
-                    background: `url(${Regresiones})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "100% 100%",
-                    backgroundRepeat: "no-repeat",
-                    height: "300px"
-                }}>
-                </div>
-                <div className="card-portafolio" style={{
-                    background: `url(${Mygg})`,
-                    backgroundPosition: "center",
-                    backgroundSize: "100% 100%",
-                    backgroundRepeat: "no-repeat",
-                    height: "300px"
-                }}>
-                </div>
+                <a href="https://theoctoworld.com" target="_blank">
+                    <div className="card-portafolio" style={{
+                        background: `url(${TheOctoWorld})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                        height: "300px"
+                    }}>
+                    </div>
+                </a>
+                <a href="https://emerdinger.github.io/Youtube-clon/" target="_blank">
+                    <div className="card-portafolio" style={{
+                        background: `url(${Youtube})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                        height: "300px"
+                    }}>
+                    </div>
+                </a>
+                <a href="https://emerdinger.github.io/triviate" target="_blank">
+                    <div className="card-portafolio" style={{
+                        background: `url(${Triviate})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                        height: "300px"
+                    }}>
+                    </div>
+                </a>
+                <a href="https://emerdinger.github.io/arriendate" target="_blank">
+                    <div className="card-portafolio" style={{
+                        background: `url(${Arriendate})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                        height: "300px"
+                    }}>
+                    </div>
+                </a>
+                <a href="https://emerdinger.github.io/gym" target="_blank">
+                    <div className="card-portafolio" style={{
+                        background: `url(${Gymfit})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                        height: "300px"
+                    }}>
+                    </div>
+                </a>
+                <a href="https://emerdinger.github.io/imagenesFree" target="_blank">
+                    <div className="card-portafolio" style={{
+                        background: `url(${ImagenesVideos})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                        height: "300px"
+                    }}>
+                    </div>
+                </a>
+                <a href="https://emerdinger.github.io/restaurant" target="_blank">
+                    <div className="card-portafolio" style={{
+                        background: `url(${Restaurante})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                        height: "300px"
+                    }}>
+                    </div>
+                </a>
+                <a href="https://emerdinger.github.io/noticias" target="_blank">
+                    <div className="card-portafolio" style={{
+                        background: `url(${Noticias})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                        height: "300px"
+                    }}>
+                    </div>
+                </a>
+                <a href="https://emerdinger.github.io/soydaltopc" target="_blank">
+                    <div className="card-portafolio" style={{
+                        background: `url(${Daltopc})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                        height: "300px"
+                    }}>
+                    </div>
+                </a>
+                <a href="https://emerdinger.github.io/calculadoraRegresiones" target="_blank">
+                    <div className="card-portafolio" style={{
+                        background: `url(${Regresiones})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                        height: "300px"
+                    }}>
+                    </div>
+                </a>
+                <a href="https://emerdinger.github.io/mygg" target="_blank">
+                    <div className="card-portafolio" style={{
+                        background: `url(${Mygg})`,
+                        backgroundPosition: "center",
+                        backgroundSize: "100% 100%",
+                        backgroundRepeat: "no-repeat",
+                        height: "300px"
+                    }}>
+                    </div>
+                </a>
             </div>
         </div>
     )
